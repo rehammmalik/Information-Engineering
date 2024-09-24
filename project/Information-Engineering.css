@@ -110,6 +110,9 @@ section {
     height: auto;
     border-radius: 8px;
 }
+
+
+/* hanaa*/
 .item {
     height: auto;
    /* background: rgba(255, 255, 255); /* خلفية العناصر */
@@ -130,7 +133,7 @@ section {
 .i {
     border: #fff 3px solid;
     padding: 15px;
-    background-color: #587fc7; /* لون الخلفية لكل عنصر */
+    background-color: rgb(109, 133, 188,0.9);  /* لون الخلفية لكل عنصر */
     border-radius: 40px;
 }
 
@@ -143,4 +146,8 @@ section {
 h2 {
     font-size: 15px;
     margin: 0 0 10px;
+    color:#e4b95b ;
+}
+.one{
+    color: #e0b966;
 }
