@@ -110,3 +110,37 @@ section {
     height: auto;
     border-radius: 8px;
 }
+.item {
+    height: auto;
+   /* background: rgba(255, 255, 255); /* خلفية العناصر */
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item div {
+    margin: 5px;
+}
+
+.i img {
+    border-radius: 40px;
+    border: #eee 2px solid; /* حدود الصور */
+}
+
+.i {
+    border: #fff 3px solid;
+    padding: 15px;
+    background-color: #587fc7; /* لون الخلفية لكل عنصر */
+    border-radius: 40px;
+}
+
+.i p {
+    font-size: 12px;
+    padding: 10px;
+    color: #fff; /* لون النص */
+}
+
+h2 {
+    font-size: 15px;
+    margin: 0 0 10px;
+}
