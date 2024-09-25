@@ -3,8 +3,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    direction: rtl; /* لجعل النص يبدأ من اليمين */
-    text-align: right; /* محاذاة النص إلى اليمين */
+    direction: rtl;
+    /* لجعل النص يبدأ من اليمين */
+    text-align: right;
+    /* محاذاة النص إلى اليمين */
 }
 
 h1 {
@@ -115,39 +117,93 @@ section {
 /* hanaa*/
 .item {
     height: auto;
-   /* background: rgba(255, 255, 255); /* خلفية العناصر */
+    /* background: rgba(255, 255, 255); /* خلفية العناصر */
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .item div {
     margin: 5px;
 }
 
 .i img {
     border-radius: 40px;
-    border: #eee 2px solid; /* حدود الصور */
+    border: #eee 2px solid;
+    /* حدود الصور */
 }
 
 .i {
     border: #fff 3px solid;
     padding: 15px;
-    background-color: rgb(109, 133, 188,0.9);  /* لون الخلفية لكل عنصر */
+    background-color: rgb(109, 133, 188, 0.9);
+    /* لون الخلفية لكل عنصر */
     border-radius: 40px;
 }
 
 .i p {
     font-size: 12px;
     padding: 10px;
-    color: #fff; /* لون النص */
+    color: #fff;
+    /* لون النص */
 }
 
 h2 {
     font-size: 15px;
     margin: 0 0 10px;
-    color:#e4b95b ;
+    color: #e4b95b;
 }
-.one{
+
+.one {
     color: #e0b966;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HANEN JANOUI */
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(109, 133, 188, 0.9);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
