@@ -178,6 +178,7 @@ h2 {
 .student:hover {
     transform: scale(1.05);
 }
+text-align: left;
 
 .student-image {
     width: 100%;
@@ -188,7 +189,6 @@ h2 {
 .m2 {
     color: black;
     background-color: beige;
-    text-align: left;
     font-size: 15px;
 }
 
@@ -201,7 +201,7 @@ h2 {
     width: 250px;
     height: 225px;
     border: #3a2e0d 2px solid;
-    /* border-radius: 1rem; */
+    border-radius: 1rem;
     float: left;
 
 }
