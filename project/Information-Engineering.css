@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    direction: rtl; /* لجعل النص يبدأ من اليمين */
-    text-align: right; /* محاذاة النص إلى اليمين */
+    direction: ltr; /* لجعل النص يبدأ من اليمين */
+    text-align: left; /* محاذاة النص إلى اليمين */
 }
 
 h1 {
@@ -13,7 +13,6 @@ h1 {
     padding: 20px;
     text-align: center;
 }
-
 
 header {
     background-color: #587fc7;
@@ -27,11 +26,11 @@ main {
 }
 
 section {
-    background-color: rgb(184, 220, 255);
+    background-color: rgb(107, 171, 234);
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(184, 220, 255);
+    box-shadow: 0 0 10px rgb(115, 156, 198);
 }
 
 .project-image {
@@ -70,6 +69,7 @@ section {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    width: 50%; /* تحديد عرض الصور */
 }
 
 main {
@@ -109,4 +109,5 @@ section {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    width: 50%; /* تحديد عرض الصور */
 }
