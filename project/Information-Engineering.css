@@ -84,7 +84,15 @@ section {
     margin: 20px 0;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
+.student-image {
+    width: 100%; /* عرض الصورة يملأ الحاوية */
+    height: 500px; /* ارتفاع ثابت للصورة */
+    object-fit: cover; /* لضمان أن الصورة تتناسب مع الحاوية دون تشويه */
+    border-radius: 10px;
+}
+
 
 .projects {
     display: flex;
@@ -107,12 +115,13 @@ section {
     gap: 10px;
     margin-top: 10px;
     padding: 20px;
+   
 }
 
 .images img {
     width: 300px;
     height: 400px;
-    
+    flex-wrap: wrap;
     /* max-width: 100%; */
     height: auto;
     border-radius: 8px;
